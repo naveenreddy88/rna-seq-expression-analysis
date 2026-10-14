@@ -2,7 +2,7 @@
 Python-based analysis and visualization of public RNA-seq data, including quality control, PCA, and differential gene expression.
 NOVA2-Associated Alternative Splicing Across Neuronal Populations
 
-Overview
+**Overview**
 
 This project investigates alternative RNA splicing associated with NOVA2 loss in two mouse neuronal populations using publicly available RNA-seq analysis results.
 
@@ -10,7 +10,7 @@ The primary objective is to determine how consistently NOVA2-associated splicing
 
 The analysis uses Python to process splicing-event data, compare gene-level overlap, match alternative-splicing events across datasets, quantify concordance, and investigate individual genes of interest.
 
-Biological Background
+**Biological Background**
 
 NOVA2 is an RNA-binding protein involved in regulating alternative splicing in neurons. Alternative splicing enables a single gene to produce multiple RNA isoforms and plays an important role in neuronal development and function.
 
@@ -30,7 +30,7 @@ Genome assembly: Mouse mm10
 
 The project uses processed alternative-splicing results generated with Quantas. The supplied files were prefiltered for statistical significance and exon inclusion changes, so they do not represent all measured splicing events.
 
-Analysis Workflow
+**Analysis Workflow**
 
 Data processing: Imported and cleaned alternative-splicing results using pandas.
 
@@ -44,7 +44,7 @@ Cross-population analysis: Calculated Pearson correlation and directional agreem
 
 Candidate investigation: Examined discordant events and their genomic annotations, focusing on Adgrl3.
 
-Key Findings
+**Key Findings**
 
 1. Gene-level overlap
 
@@ -103,7 +103,7 @@ This identifies Adgrl3 as a candidate locus for further investigation, although 
 ![Discordant splicing events](figures/nova2_discordant_splicing.png)
 
 
-Limitations and Future Directions
+**Limitations and Future Directions**
 
 The datasets contain prefiltered significant splicing events. Absence from one dataset does not establish absence of regulation.
 
@@ -136,7 +136,7 @@ The `data/` directory contains processed splicing datasets, `notebooks/` contain
 
 
 
-Tools
+**Tools
 
 Python
 
@@ -148,7 +148,7 @@ Jupyter Notebook
 
 Git and GitHub
 
-Data Availability
+Data Availability**
 
 Original data are publicly available through NCBI GEO accession GSE103314.
 
